@@ -1,0 +1,30 @@
+In train set minimum rating: 2.59, maximum rating: 7.73
+size of train set:  3392
+Train Classifier SVR
+Params: {'_impl': 'epsilon_svr', 'kernel': 'rbf', 'C': 1000, 'verbose': False, 'probability': False, 'degree': 3, 'epsilon': 0.1, 'shrinking': True, 'max_iter': -1, 'random_state': None, 'tol': 0.001, 'cache_size': 200, 'coef0': 0.0, 'nu': 0.0, 'gamma': 0.001, 'class_weight': None} 
+
+Predict...
+coeff. of determ. r2 = 0.0465794181865
+mean absolute error = 0.53868010909
+
+# predicted high / # real high:  0 44
+Accury high quality:  0.0
+Precision high quality:  0.0
+FP / FN / # predicted high 0 44 0
+f1: 0.0
+######################################
+
+Train Classifier BaselineRegressor
+Params: {'mean': None} 
+
+Predict...
+coeff. of determ. r2 = -0.00455888566144
+mean absolute error = 0.552867438629
+
+# predicted high / # real high:  0 44
+Accury high quality:  0.0
+Precision high quality:  0.0
+FP / FN / # predicted high 0 44 0
+f1: 0.0
+######################################
+
