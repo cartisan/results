@@ -1,0 +1,9 @@
+Analysed hue-models (thres=6.62) of 2839 images
+Histogram showing frequency of all best-fit hue model:
+[  51   78  255  662   79 1699   15]
+Analysed hue-models (thres=4.92) of 2839 images
+Histogram showing frequency of all best-fit hue model:
+[  33   41  175  392   46 1892  260]
+Analysed hue-models (thres=0) of 2839 images
+Histogram showing frequency of all best-fit hue model:
+[0    0    0    0    0    1939  907]

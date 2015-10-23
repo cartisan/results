@@ -1,0 +1,34 @@
+Now with photonet
+
+avg distance to hue model:
+1st: 3.33846526339 +/- 1.64000311349
+2nd: 5.64411601668 +/- 2.80209268465
+3rd: 7.45787860664 +/- 3.1234720848
+
+Threshold is mean(dist) + 2 * std(dist) = 6.61847149036
+99.542092286% of distances to 0-best model are below this threshold
+65.6569214512% of distances to 1-best model are below this threshold
+37.7597745685% of distances to 2-best model are below this threshold
+
+Threshold is mean(dist) + std(dist) = 4.97846837687
+82.2472701656% of distances to 0-best model are below this threshold
+43.5364564988% of distances to 1-best model are below this threshold
+23.4941880944% of distances to 2-best model are below this threshold
+
+
+Now with AVA
+
+avg distance to hue model:
+1st: 3.22694374193 +/- 1.69786356711
+2nd: 5.44318359106 +/- 2.86038533077
+3rd: 7.1501386044 +/- 3.26418622055
+
+Threshold is mean(dist) + 2 * std(dist) = 6.62267087615
+99.6225524888% of distances to 0-best model are below this threshold
+67.7754187308% of distances to 1-best model are below this threshold
+41.9674451522% of distances to 2-best model are below this threshold
+
+Threshold is mean(dist) + std(dist) = 4.92480730904
+81.717386176% of distances to 0-best model are below this threshold
+45.7183297948% of distances to 1-best model are below this threshold
+27.0582684595% of distances to 2-best model are below this threshold
