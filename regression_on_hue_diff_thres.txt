@@ -1,0 +1,50 @@
+python regression_models.py -i /home/student/l/lberov/data/photonet_features_hue -t 1
+
+THRES: 6.6
+
+In train set minimum rating: 3.1, maximum rating: 6.77
+size of train set:  2272
+Train Classifier SGDRegressor
+coeff. of determ. r2 = -0.103216478856
+mean absolute error = 0.486930069788
+######################################
+Train Classifier SVR
+coeff. of determ. r2 = -0.000570649076194
+mean absolute error = 0.457731548106
+######################################
+Train Classifier BayesianRidge
+coeff. of determ. r2 = -1.3417025196e-05
+mean absolute error = 0.45733558632
+##########################
+Train Classifier AdaBoostRegressor
+coeff. of determ. r2 = -0.00324941588989
+mean absolute error = 0.459025863292
+######################################
+Train Classifier BaselineRegressor
+coeff. of determ. r2 = -0.000215857449739
+mean absolute error = 0.457438178453
+######################################
+
+
+
+THRES: 4.9
+
+Train Classifier SGDRegressor
+coeff. of determ. r2 = -0.0564115413399
+mean absolute error = 0.454541202252
+######################################
+Train Classifier SVR
+coeff. of determ. r2 = -0.00400053719971
+mean absolute error = 0.444080316235
+######################################
+Train Classifier BayesianRidge
+coeff. of determ. r2 = -0.00197006037349
+mean absolute error = 0.443506637475
+######################################
+Train Classifier AdaBoostRegressor
+coeff. of determ. r2 = -0.0093377907566
+mean absolute error = 0.443467442465
+######################################
+Train Classifier BaselineRegressor
+coeff. of determ. r2 = -0.000534062786872
+mean absolute error = 0.443395760365

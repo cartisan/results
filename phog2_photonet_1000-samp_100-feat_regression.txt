@@ -1,0 +1,78 @@
+*** phog with 2 level of depth ***
+*** 1000 datapoints, 100 features, 100 batch size ***
+*** used 15 G main mem ***
+
+
+In train set minimum rating: 3.1, maximum rating: 6.77
+size of train set:  800
+Train Classifier SGDRegressor
+Params: {'warm_start': False, 'loss': 'squared_loss', 'C': 1.0, 'shuffle': True, 'verbose': 0, 'fit_intercept': True, 'epsilon': 0.1, 'learning_rate': 'invscaling', 'n_iter': 20, 'penalty': 'l2', 'power_t': 0.25, 'random_state': None, 't_': None, 'eta0': 0.01, 'l1_ratio': 0.15, 'alpha': 0.0001, 'coef_': None, 'average': False}
+
+Predict...
+coeff. of determ. r2 = -0.317080452719
+mean absolute error = 0.44634424373
+
+# predicted high / # real high:  6 36
+Accury high quality:  0.333333333333
+Precision high quality:  0.0555555555556
+FP / FN / # predicted high: 4 / 34 / 6
+f1: 0.0952380952381
+######################################
+
+Train Classifier SVR
+Params: {'_impl': 'epsilon_svr', 'kernel': 'rbf', 'C': 100, 'verbose': False, 'probability': False, 'degree': 3, 'epsilon': 1, 'shrinking': True, 'max_iter': -1, 'random_state': None, 'tol': 0.001, 'cache_size': 200, 'coef0': 0.0, 'nu': 0.0, 'gamma': 0.01, 'class_weight': None}
+
+Predict...
+coeff. of determ. r2 = 0.0175609135121
+mean absolute error = 0.412937826186
+
+# predicted high / # real high:  0 36
+Accury high quality:  0.0
+Precision high quality:  0.0
+FP / FN / # predicted high: 0 / 36 / 0
+/net/home/student/l/lberov/thesis/local/lib/python2.7/site-packages/sklearn/metrics/classification.py:958: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+f1: 0.0
+######################################
+
+Train Classifier BayesianRidge
+Params: {'normalize': False, 'n_iter': 300, 'verbose': False, 'lambda_1': 1e-06, 'lambda_2': 1e-06, 'fit_intercept': True, 'alpha_2': 1e-06, 'tol': 0.001, 'alpha_1': 1e-06, 'copy_X': True, 'compute_score': False}
+
+Predict...
+coeff. of determ. r2 = 0.0481835542038
+mean absolute error = 0.40221747725
+
+# predicted high / # real high:  0 36
+Accury high quality:  0.0
+Precision high quality:  0.0
+FP / FN / # predicted high: 0 / 36 / 0
+f1: 0.0
+######################################
+
+Train Classifier AdaBoostRegressor
+Params: {'loss': 'linear', 'base_estimator': None, 'estimators_': [], 'learning_rate': 1.0, 'n_estimators': 50, 'random_state': None, 'estimator_params': ()}
+
+Predict...
+coeff. of determ. r2 = 0.0295447704701
+mean absolute error = 0.407686714646
+
+# predicted high / # real high:  0 36
+Accury high quality:  0.0
+Precision high quality:  0.0
+FP / FN / # predicted high: 0 / 36 / 0
+f1: 0.0
+######################################
+
+Train Classifier BaselineRegressor
+Params: {'mean': None}
+
+Predict...
+coeff. of determ. r2 = -0.0186040590379
+mean absolute error = 0.41631075
+
+# predicted high / # real high:  0 36
+Accury high quality:  0.0
+Precision high quality:  0.0
+FP / FN / # predicted high: 0 / 36 / 0
+f1: 0.0
+######################################
