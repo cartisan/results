@@ -1,6 +1,30 @@
 Now with photonet
 
 avg distance to hue model:
+1st: 0.673238578103 +/- 0.797984841974
+2nd: 1.54235954784 +/- 1.50075139577
+3rd: 2.41990984341 +/- 2.20381973836
+
+Threshold is mean(dist) + 2 * std(dist) = 2.26920826205
+94.28% of distances to 0-best model are below this threshold
+74.2% of distances to 1-best model are below this threshold
+54.48% of distances to 2-best model are below this threshold
+
+Threshold is mean(dist) + std(dist) = 1.47122342008
+87.32% of distances to 0-best model are below this threshold
+57.92% of distances to 1-best model are below this threshold
+43.56% of distances to 2-best model are below this threshold 
+
+
+
+
+ 
+!!! Careful, these results are broken due to an error in hue implementation
+!!! Retained for doku reasons
+ 
+Now with photonet
+
+avg distance to hue model:
 1st: 3.33846526339 +/- 1.64000311349
 2nd: 5.64411601668 +/- 2.80209268465
 3rd: 7.45787860664 +/- 3.1234720848

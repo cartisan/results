@@ -1,3 +1,20 @@
+Analysed hue-models (thres=2.27) of 2839 images
+Example models results:  [7, 1, 1, 7, 1, 6, 6, 0, 5, 5]
+Histogram showing frequency of all best-fit hue model:
+[271 138 491 591  96 747 505]
+
+Analysed hue-models (thres=1.47) of 2839 images
+Example models results:  [7, 2, 3, 7, 3, 6, 6, 0, 5, 5]
+Histogram showing frequency of all best-fit hue model:
+[207  73 450 453  49 950 657]
+
+
+
+
+ 
+!!! Careful, these results are broken due to an error in hue implementation
+!!! Retained for doku reasons
+
 Analysed hue-models (thres=6.62) of 2839 images
 Histogram showing frequency of all best-fit hue model:
 [  51   78  255  662   79 1699   15]
