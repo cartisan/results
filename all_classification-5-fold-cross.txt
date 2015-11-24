@@ -1,0 +1,177 @@
+AVA, Li:
+    size of data set: 4225, number of class 1: 2061.0
+    Train Classifier SGDClassifier:         Mean precision (class 1) = 0.555203479486  (+/- 0.0427958362589)
+    Train Classifier SVC:                   Mean precision (class 1) = 0.579825429779  (+/- 0.0166070722895)
+    Train Classifier GaussianNB:            Mean precision (class 1) = 0.566710033696  (+/- 0.0154366225304)
+    Train Classifier AdaBoostClassifier:    Mean precision (class 1) = 0.483297053798  (+/- 0.0125938228914) 
+    
+AVA, gist
+    size of data set: 4239, number of class 1: 2068.0
+    Train Classifier SGDClassifier          Mean precision (class 1) = 0.612018045408  (+/- 0.034001030617)
+    Train Classifier SVC                    Mean precision (class 1) = 0.693809933157  (+/- 0.0109451940296)
+    Train Classifier GaussianNB             Mean precision (class 1) = 0.55629726404   (+/- 0.00850884756008)
+    Train Classifier AdaBoostClassifier     Mean precision (class 1) = 0.534865592505  (+/- 0.108106359574)    
+    
+Details:
+    -------------------------------------
+    Train Classifier SGDClassifier
+    Mean precision (class 1) = 0.555203479486  (+/- 0.0427958362589)
+     (ave. # of 1 predictions: 332.0)
+    ROC (mean area under curve) = 0.597329473773
+    F1 mean score = 0.433742158175
+    Details for each fold (# of class 1, acc):
+    ['446.0 (0.585201793722 acc.)', '218.0 (0.610091743119 acc.)', '50.0 (0.5 acc.)', '200.0 (0.57 acc.)', '746.0 (0.51072386059 acc.)']
+    -------------------------------------
+    Train Classifier SVC
+    Mean precision (class 1) = 0.579825429779  (+/- 0.0166070722895)
+     (ave. # of 1 predictions: 316.6)
+    ROC (mean area under curve) = 0.596663025123
+    F1 mean score = 0.503639261393
+    Details for each fold (# of class 1, acc):
+    ['310.0 (0.577419354839 acc.)', '335.0 (0.6 acc.)', '300.0 (0.593333333333 acc.)', '321.0 (0.576323987539 acc.)', '317.0 (0.552050473186 acc.)']
+    -------------------------------------
+    Train Classifier GaussianNB
+    Mean precision (class 1) = 0.566710033696  (+/- 0.0154366225304)
+     (ave. # of 1 predictions: 362.0)
+    ROC (mean area under curve) = 0.587503303564
+    F1 mean score = 0.529842889005
+    Details for each fold (# of class 1, acc):
+    ['369.0 (0.588075880759 acc.)', '346.0 (0.56936416185 acc.)', '346.0 (0.546242774566 acc.)', '380.0 (0.552631578947 acc.)', '369.0 (0.577235772358 acc.)']
+    -------------------------------------
+    Train Classifier AdaBoostClassifier
+    Mean precision (class 1) = 0.483297053798  (+/- 0.0125938228914)
+     (ave. # of 1 predictions: 245.8)
+    ROC (mean area under curve) = 0.475227331497
+    F1 mean score = 0.306180671834
+    Details for each fold (# of class 1, acc):
+    ['297.0 (0.481481481481 acc.)', '437.0 (0.478260869565 acc.)', '73.0 (0.493150684932 acc.)', '412.0 (0.46359223301 acc.)', '10.0 (0.5 acc.)']
+
+    
+AVA, gist
+    size of data set: 4239, number of class 1: 2068.0
+    Train Classifier SGDClassifier          Mean precision (class 1) = 0.612018045408  (+/- 0.034001030617)
+    Train Classifier SVC                    Mean precision (class 1) = 0.693809933157  (+/- 0.0109451940296)
+    Train Classifier GaussianNB             Mean precision (class 1) = 0.55629726404   (+/- 0.00850884756008)
+    Train Classifier AdaBoostClassifier     Mean precision (class 1) = 0.534865592505  (+/- 0.108106359574)
+    
+    Details:
+    -------------------------------------
+    Train Classifier SGDClassifier
+    Mean precision (class 1) = 0.612018045408  (+/- 0.034001030617)
+     (ave. # of 1 predictions: 186.2)
+    ROC (mean area under curve) = 0.603529983486
+    F1 mean score = 0.314267465874
+    Details for each fold (# of class 1, acc):
+    ['256.0 (0.6015625 acc.)', '3.0 (0.666666666667 acc.)', '222.0 (0.594594594595 acc.)', '46.0 (0.630434782609 acc.)', '404.0 (0.566831683168 acc.)']
+    -------------------------------------
+    Train Classifier SVC
+    Mean precision (class 1) = 0.693809933157  (+/- 0.0109451940296)
+     (ave. # of 1 predictions: 402.4)
+    ROC (mean area under curve) = 0.618560872841
+    F1 mean score = 0.608177474639
+    Details for each fold (# of class 1, acc):
+    ['401.0 (0.690773067332 acc.)', '383.0 (0.694516971279 acc.)', '389.0 (0.686375321337 acc.)', '413.0 (0.714285714286 acc.)', '426.0 (0.683098591549 acc.)']
+    -------------------------------------
+    Train Classifier GaussianNB
+    Mean precision (class 1) = 0.55629726404  (+/- 0.00850884756008)
+     (ave. # of 1 predictions: 330.4)
+    ROC (mean area under curve) = 0.562383317945
+    F1 mean score = 0.493776883155
+    Details for each fold (# of class 1, acc):
+    ['310.0 (0.561290322581 acc.)', '333.0 (0.552552552553 acc.)', '354.0 (0.567796610169 acc.)', '341.0 (0.542521994135 acc.)', '314.0 (0.557324840764 acc.)']
+    -------------------------------------
+    Train Classifier AdaBoostClassifier
+    Mean precision (class 1) = 0.534865592505  (+/- 0.108106359574)
+     (ave. # of 1 predictions: 458.2)
+    ROC (mean area under curve) = 0.494252536865
+    F1 mean score = 0.438398082259
+    Details for each fold (# of class 1, acc):
+    ['351.0 (0.461538461538 acc.)', '848.0 (0.48820754717 acc.)', '4.0 (0.75 acc.)', '446.0 (0.493273542601 acc.)', '642.0 (0.481308411215 acc.)']
+    -------------------------------------
+
+    
+PHOTONET, Li:
+    Load dataset
+    size of data set: 2827, number of class 1: 1434.0
+    Train Classifier SGDClassifier          Mean precision (class 1) = 0.553772412846  (+/- 0.0259747519554)
+    Train Classifier SVC                    Mean precision (class 1) = 0.546298225886  (+/- 0.0164981498494)
+    Train Classifier GaussianNB             Mean precision (class 1) = 0.544107316434  (+/- 0.0268261729035)
+    Train Classifier AdaBoostClassifier     Mean precision (class 1) = 0.567299506651  (+/- 0.104890322908)
+
+    Details
+    -------------------------------------
+    Train Classifier SGDClassifier
+    Mean precision (class 1) = 0.553772412846  (+/- 0.0259747519554)
+     (ave. # of 1 predictions: 210.4)
+    ROC (mean area under curve) = 0.559322028058
+    F1 mean score = 0.412873965194
+    Details for each fold (# of class 1, acc):
+    ['287.0 (0.536585365854 acc.)', '185.0 (0.583783783784 acc.)', '373.0 (0.512064343164 acc.)', '200.0 (0.565 acc.)', '7.0 (0.571428571429 acc.)']
+    -------------------------------------
+    Train Classifier SVC
+    Mean precision (class 1) = 0.546298225886  (+/- 0.0164981498494)
+     (ave. # of 1 predictions: 312.2)
+    ROC (mean area under curve) = 0.555575979945
+    F1 mean score = 0.568975264751
+    Details for each fold (# of class 1, acc):
+    ['319.0 (0.545454545455 acc.)', '292.0 (0.561643835616 acc.)', '303.0 (0.551155115512 acc.)', '328.0 (0.515243902439 acc.)', '319.0 (0.557993730408 acc.)']
+    -------------------------------------
+    Train Classifier GaussianNB
+    Mean precision (class 1) = 0.544107316434  (+/- 0.0268261729035)
+     (ave. # of 1 predictions: 322.8)
+    ROC (mean area under curve) = 0.556078142109
+    F1 mean score = 0.57471963708
+    Details for each fold (# of class 1, acc):
+    ['302.0 (0.586092715232 acc.)', '304.0 (0.546052631579 acc.)', '301.0 (0.541528239203 acc.)', '355.0 (0.501408450704 acc.)', '352.0 (0.545454545455 acc.)']
+    -------------------------------------
+    Train Classifier AdaBoostClassifier
+    Mean precision (class 1) = 0.567299506651  (+/- 0.104890322908)
+     (ave. # of 1 predictions: 134.6)
+    ROC (mean area under curve) = 0.517862600568
+    F1 mean score = 0.293822379985
+    Details for each fold (# of class 1, acc):
+    ['138.0 (0.463768115942 acc.)', '314.0 (0.576433121019 acc.)', '4.0 (0.75 acc.)', '189.0 (0.582010582011 acc.)', '28.0 (0.464285714286 acc.)']
+    -------------------------------------
+    
+    
+PHOTONET, gist:
+    size of data set: 2839, number of class 1: 1439.0
+    Train Classifier SGDClassifier          Mean precision (class 1) = 0.586000584117  (+/- 0.068036314003)
+    Train Classifier SVC                    Mean precision (class 1) = 0.601584734418  (+/- 0.0158370022186)
+    Train Classifier GaussianNB             Mean precision (class 1) = 0.56470500124   (+/- 0.00835911804434)
+    Train Classifier AdaBoostClassifier     Mean precision (class 1) = 0.509894164302  (+/- 0.00824628301773)
+
+    Details
+    -------------------------------------
+    Train Classifier SGDClassifier
+    Mean precision (class 1) = 0.586000584117  (+/- 0.068036314003)
+     (ave. # of 1 predictions: 346.0)
+    ROC (mean area under curve) = 0.63671162848
+    F1 mean score = 0.571734465799
+    Details for each fold (# of class 1, acc):
+    ['551.0 (0.511796733212 acc.)', '102.0 (0.696078431373 acc.)', '345.0 (0.588405797101 acc.)', '529.0 (0.517958412098 acc.)', '203.0 (0.615763546798 acc.)']
+    -------------------------------------
+    Train Classifier SVC
+    Mean precision (class 1) = 0.601584734418  (+/- 0.0158370022186)
+     (ave. # of 1 predictions: 286.2)
+    ROC (mean area under curve) = 0.632615621368
+    F1 mean score = 0.599732066435
+    Details for each fold (# of class 1, acc):
+    ['278.0 (0.618705035971 acc.)', '277.0 (0.584837545126 acc.)', '307.0 (0.609120521173 acc.)', '283.0 (0.614840989399 acc.)', '286.0 (0.58041958042 acc.)']
+    -------------------------------------
+    Train Classifier GaussianNB
+    Mean precision (class 1) = 0.56470500124  (+/- 0.00835911804434)
+     (ave. # of 1 predictions: 327.2)
+    ROC (mean area under curve) = 0.571863680099
+    F1 mean score = 0.600821413926
+    Details for each fold (# of class 1, acc):
+    ['319.0 (0.564263322884 acc.)', '340.0 (0.573529411765 acc.)', '329.0 (0.550151975684 acc.)', '316.0 (0.563291139241 acc.)', '332.0 (0.572289156627 acc.)']
+    -------------------------------------
+    Train Classifier AdaBoostClassifier
+    Mean precision (class 1) = 0.509894164302  (+/- 0.00824628301773)
+     (ave. # of 1 predictions: 468.4)
+    ROC (mean area under curve) = 0.518672299478
+    F1 mean score = 0.615642203205
+    Details for each fold (# of class 1, acc):
+    ['568.0 (0.507042253521 acc.)', '525.0 (0.52 acc.)', '468.0 (0.497863247863 acc.)', '563.0 (0.50621669627 acc.)', '218.0 (0.518348623853 acc.)']
+    -------------------------------------
