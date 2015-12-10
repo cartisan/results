@@ -1,0 +1,37 @@
+AVA, LI:
+    Dataset size: 4225
+    Test 5-fold cross validation...
+    Train Classifier SGDRegressor
+        Mean r2: -0.0562332091697 (+/-0.0211781839355)
+        Mean mae: 0.563241948438  (+/-0.0182121462413)
+    Train Classifier SVR
+        Mean r2: 0.0297350729526 (+/-0.016353156509)
+        Mean mae: 0.538814475206 (+/-0.023520484698)
+    Train Classifier BayesianRidge
+        Mean r2: 0.030288737582  (+/-0.0149820172317)
+        Mean mae: 0.538514461346 (+/-0.0237055508873)
+    Train Classifier AdaBoostRegressor
+        Mean r2: 0.0302132324109 (+/-0.0122499908444)
+        Mean mae: 0.539790738879 (+/-0.0237261776883)
+    Train Classifier BaselineRegressor
+        Mean r2: -0.000877226273005 (+/-0.0010890421629)
+        Mean mae: 0.54732893106     (+/-0.0218683442064)
+
+AVA, GIST:
+    Dataset size: 4239
+    Test 5-fold cross validation...
+    Train Classifier SGDRegressor
+        Mean r2: -0.0849240639542 (+/-0.0363242849428)
+        Mean mae: 0.568919128529 (+/-0.0167623052457)
+    Train Classifier SVR
+        Mean r2: 0.0400799492519 (+/-0.00832316106493)
+        Mean mae: 0.534800243282 (+/-0.0156928860255)
+    Train Classifier BayesianRidge
+        Mean r2: 0.0466888106175 (+/-0.0117760639158)
+        Mean mae: 0.533200793719 (+/-0.0148958543106)
+    Train Classifier AdaBoostRegressor
+        Mean r2: 0.0319090774071 (+/-0.018953147594)
+        Mean mae: 0.536037769818 (+/-0.0136430894307)
+    Train Classifier BaselineRegressor
+        Mean r2: -0.00155515243027 (+/-0.00104854227988)
+        Mean mae: 0.54734328577    (+/-0.0153013526627)
